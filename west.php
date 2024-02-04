@@ -74,17 +74,27 @@
             <div class="col-lg-8">
                 <!-- Blog Detail Start -->
                 <div class="mb-5">
-                    <img class="img-fluid w-100 rounded mb-5" src="img/blog-1.jpg" alt="">
+                    <img class="img-fluid w-100 rounded mb-5" src="img/sp2.jpg" alt="">
                     <h1 class="text-uppercase mb-4">Smashed Potato and Beans (Pomme Pilé)</h1>
-                    <p></p>
+                    <p>Pilé is a simple and delicious dish from western Cameroon, more specifically from 
+                        the Bamiléké tribe. It's a type of mashed potato with beans (red or black), 
+                        enriched with palm oil and dried crayfish (the latter is optional). This mashed potato is excellent.</p>
                     <p><strong>Ingredients</strong></p>
-                    <p>Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor
-                        invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam
-                        lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor
-                        rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor
-                        sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at
-                        lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at
-                        sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos.</p>
+                    <p>20 small Irish potatoes</p>
+                    <p>2 cups boiled beans of choice</p>
+                    <p>A quarter cup palm oil</p>
+                    <p>2 tablespoons crayfish</p>
+                    <p>2 tablespoons onions- chopped</p>
+                    <p>1 red chili pepper (or other hot pepper)</p>
+                    <p>1 cube Maggi</p>
+                    <p>Half teaspoon salt</p>
+                    <p><strong>Recipe</strong></p>
+                    <p>Peel potatoes and put in a pot with water. Boil until soft. In another pot, put palm oil to heat up. DO NOT bleach it.</p>
+                    <p>Put in onions to fry for a bit. Chop chili pepper and throw in together with crayfish. Stir well, do not let it burn. 
+                        Turn the heat to low. Add in your boiled potatoes and beans and begin to mash with a pestle or wooden spoon. 
+                        Mash till it forms one big lump. Turn off heat and serve warm. </p>
+                        <p>Pretty simple right😊.<strong> Enjoy your meal.</strong></p>
+                        <img src="img/sp1.jpg" alt="">
                 </div>
                 <!-- Blog Detail End -->
 

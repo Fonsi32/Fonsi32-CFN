@@ -60,8 +60,7 @@
 
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Contact <i class="bi bi-arrow-right"></i></a>
-            </div>
+             </div>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -74,39 +73,17 @@
             <div class="row gx-5">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded" src="img/food.jpg" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="border-start border-5 border-primary ps-5 mb-5">
                         <h6 class="text-primary text-uppercase">About Us</h6>
-                        <h1 class="display-9 text-uppercase mb-0">Cameroonian cuisine is one of the most varied in Africa due to Cameroon's location on 
+                        <h1 class="display-9  mb-0">Cameroonian cuisine is one of the most varied in Africa due to Cameroon's location on 
                         the crossroads between the north, west, and center of the continent; the diversity in ethnicity with mixture ranging from Bantus, Semi-bantus 
                         and Shuwa Arabs, as well as the influence of German, French and English colonialization. All these gives Cameroon a variety of delicious meals.</h1>
                     </div>
-                    <h4 class="text-body mb-4">Diam dolor diam ipsum tempor sit. Clita erat ipsum et lorem stet no labore lorem sit clita duo justo magna dolore</h4>
-                    <div class="bg-light p-4">
-                        <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
-                            <li class="nav-item w-50" role="presentation">
-                                <button class="nav-link text-uppercase w-100 active" id="pills-1-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1"
-                                    aria-selected="true">Our Mission</button>
-                            </li>
-                            <li class="nav-item w-50" role="presentation">
-                                <button class="nav-link text-uppercase w-100" id="pills-2-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
-                                    aria-selected="false">Our Vission</button>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
-                                <p class="mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
-                            </div>
-                            <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
-                                <p class="mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -115,21 +92,7 @@
 
 
     <!-- Offer Start -->
-    <div class="container-fluid bg-offer my-5 py-5">
-        <div class="container py-5">
-            <div class="row gx-5 justify-content-start">
-                <div class="col-lg-7">
-                    <div class="border-start border-5 border-dark ps-5 mb-5">
-                        <h6 class="text-dark text-uppercase">Special Offer</h6>
-                        <h1 class="display-5 text-uppercase text-white mb-0">Save 50% on all items your first order</h1>
-                    </div>
-                    <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
-                    <a href="" class="btn btn-light py-md-3 px-md-5 me-3">Shop Now</a>
-                    <a href="" class="btn btn-outline-light py-md-3 px-md-5">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- Offer End -->
 
 
@@ -137,89 +100,87 @@
     <div class="container-fluid py-5">
         <div class="container">
             <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
-                <h6 class="text-primary text-uppercase">Team Members</h6>
-                <h1 class="display-5 text-uppercase mb-0">Qualified Pets Care Professionals</h1>
+                <h1 class="display-5 text-uppercase mb-0 title-meal">Home made Dishes</h1>
             </div>
             <div class="owl-carousel team-carousel position-relative" style="padding-right: 25px;">
                 <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/Ndole2.png" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
+                   <a href="southwest.php"> <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/eru2.jpg" alt="">
+                      
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Ndole</h5>
-                        <p class="m-0">......</p>
-                    </div>
+                        <h5 class="text-uppercase">Eru</h5>
+                        <p class="m-0"></p>
+                    </div></a>
                 </div>
                 <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
+                    <a href="northwest.php">  <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/achu11.jpg" alt="">
+                       
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
+                        <h5 class="text-uppercase">Achu Soup</h5>
+                        <p class="m-0"></p>
+                    </div></a>
+                   
                 </div>
                 <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
+                    <a href="east.php"><div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/koki1.jpg" alt="">
+                      
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
+                    <h5 class="text-uppercase">koki</h5>
+                     
+                        <p class="m-0"></p>
+                    </div></a>
                 </div>
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
+                <div class="team-item"> 
+                    <a href="littoral.php"> <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/mbongo1.jpg" alt="">
+                      
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
+                        <h5 class="text-uppercase">Mbongo Chobi</h5>
+                        <p class="m-0"></p>
+                    </div></a>
+                   
                 </div>
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-5.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
+                <div class="team-item"> 
+                    <a href="center.php"><div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/okok1.jpg" alt="">
+                        
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
+                        <h5 class="text-uppercase">Okok</h5>
+                        <p class="m-0"></p>
+                    </div></a>
+                    
+                    
+                </div>
+                <div class="team-item"> 
+                    <a href="west.php"><div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/sp2.jpg" alt="">
+                        
                     </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="text-uppercase">Smashed Potato and Beans</h5>
+                        <p class="m-0">(Pomme Pilé)</p>
+                    </div></a>
+                    
+                    
+                </div>
+                <div class="team-item"> 
+                    <a href="far north.php"><div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/ngalakh.jpg" alt="">
+                        
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="text-uppercase">Ngalakh</h5>
+                        <p class="m-0"></p>
+                    </div></a>
+                    
+                    
                 </div>
             </div>
         </div>

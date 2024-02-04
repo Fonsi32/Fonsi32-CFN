@@ -74,27 +74,46 @@
             <div class="col-lg-8">
                 <!-- Blog Detail Start -->
                 <div class="mb-5">
-                    <img class="img-fluid w-100 rounded mb-5" src="img/blog-1.jpg" alt="">
-                    <h1 class="text-uppercase mb-4">Diam dolor est labore duo ipsum clita sed et lorem tempor duo</h1>
-                    <p>Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut
-                        magna lorem. Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet
-                        amet magna accusam consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at
-                        sanctus et. Ipsum sit gubergren dolores et, consetetur justo invidunt at et
-                        aliquyam ut et vero clita. Diam sea sea no sed dolores diam nonumy, gubergren
-                        sit stet no diam kasd vero.</p>
-                    <p>Voluptua est takimata stet invidunt sed rebum nonumy stet, clita aliquyam dolores
-                        vero stet consetetur elitr takimata rebum sanctus. Sit sed accusam stet sit
-                        nonumy kasd diam dolores, sanctus lorem kasd duo dolor dolor vero sit et. Labore
-                        ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et,
-                        clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
-                        justo dolore sit invidunt.</p>
-                    <p>Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor
-                        invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam
-                        lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor
-                        rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor
-                        sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at
-                        lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at
-                        sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos.</p>
+                    <img class="img-fluid w-100 rounded mb-5" src="img/okra.jpg" alt="">
+                    <h1 class="text-uppercase mb-4">Okro Soup and Corn Fufu</h1>
+                    <p> It is traditionally flavored with either 
+                        baobab cream, peanut butter, or sweet yogurt. 
+                        The dish is typically served in large bowls as 
+                        a dessert and is consumed chilled.</p>
+                    <p><strong>Ingredients</strong></p>
+                    <p>cow leg(foot cow), about 2 kg</p>
+                    <p>4 oz smoked fish (deboned)</p>
+                    <p>1/3 cup red palm oil</p>
+                    <p>1/2 cup chopped onion</p>
+                    <p>1/3 cup crayfish (coarsely ground)</p>
+                    <p>4 cups beef stock from boiling the meats used in this recipe</p>
+                    <p>2 seasoning cubes (Maggi)</p>
+                    <p>Salt to taste</p>
+                    <p>1 pound fresh okra (chopped into circles), 1/2 kg</p>
+                    <p>5 oz fresh spinach (roughly chopped)</p>
+                    <p><strong>Recipe</strong></p>
+                    <p>Boil the Meats. Rinse the meats you choose to use thoroughly then put them in a pot. Add water to just over above the meat. 
+                        Add salt and seasoning cubes (Maggi) as needed. Also add half a medium onion (chopped). Cover and let it cook on high heat 
+                        until the meat is tender.</p>
+
+                    <p> Place a pot on high heat and pour in the palm oil. Let it heat up for 2 to 3 minutes then reduce the heat to medium high 
+                        and add the onions and let them sauté for about 1 minute while stirring from time to time.
+                       Add the crayfish to the pot and stir for only a few seconds to release its flavor. Do not allow the crayfish in oil for 
+                       long or the crayfish will burn.</p>
+                    <p>Add the cooked meats to the pot, followed by their stock. Bring to a simmer, spooning some of the liquid over the meats 
+                        if they are not completely submerged. 
+                        Add the smoked fish to the pot. Taste for salt then add the 2 seasoning cubes. Note that seasoning cubes are salty so be 
+                        the judge and use less if your stock was salty enough. Let everything simmer together on medium heat. 
+                        Add the habanero peppers whole to the pot. I do it this way to soften the peppers so those who want spicy soup can press 
+                        some of the pepper into their soup to release its spiciness.</p>
+                    <p>However, if you want the entire soup spicy feel free to blend one habanero pepper with water then add it to the soup. 
+                            While the pot simmers prepare the okro. Place about a cup of the okro into a blender or food processor and pulse about 2 
+                            seconds at a time to reveal a chopped consistency.Repeat the process with all of the okro. Add the okro to the pot, 
+                            gently stir to ensure it is evenly distributed. Let it cook for 2 minutes. 
+                            Add the spinach to the pot and stir in. Let everything cook for another 2-3 minutes. 
+                            Turn off the heat and serve hot with your fufu of choice.</p>
+                    <p>Enjoy your cooking! 😊</p>
+                    <img src="img/Okra-Soup.jpg" alt="">
                 </div>
                 <!-- Blog Detail End -->
 

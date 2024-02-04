@@ -9,7 +9,7 @@
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/oip.jpg" rel="icon">
+    <link href="img/wood.svg" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -35,7 +35,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0" style="background-color: teal">
         <a href="index.html" class="navbar-brand ms-lg-5">
-            <h1 class="m-0 text-uppercase text-dark"><i class="bi bi-shop fs-1 text-primary me-3"></i>Cameroon Food Network</h1>
+            <h1 class="m-0 text-uppercase text-dark"><link rel="img/fry-knife.svg"></i>Cameroon Food Network</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -52,7 +52,7 @@
                         <a href="littoral.php" class="dropdown-item">Littoal</a>
                         <a href="east.php" class="dropdown-item">East</a>
                         <a href="west.php" class="dropdown-item">West</a>
-                        <a href="southwest.html" class="dropdown-item">Southwest</a>
+                        <a href="southwest.php" class="dropdown-item">Southwest</a>
                         <a href="northwest.php" class="dropdown-item">Northwest</a>
                         <a href="far north.php" class="dropdown-item">Far North</a>
                         <a href="north.php" class="dropdown-item">North</a>
@@ -73,7 +73,7 @@
             <div class="row justify-content-start">
                 <div class="col-lg-8 text-center text-lg-start">
                     <h1 class="display-5 title-hd">Camer Delice</h1>
-                    <h1> Explore the greatness of Cameroon's divers Food Chain </h1>
+                    <h1> Explore the greatness of Cameroon divers Food, all in one space. </h1>
                </div>
             </div>
         </div>
@@ -106,7 +106,7 @@
     <div class="container-fluid py-5">
         <div class="container">
             <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
-                <h1 class="display-5 text-uppercase mb-0 title-meal">Take a quick glance</h1>
+                <h1 class="display-5 text-uppercase mb-0 title-meal">Home made Dishes</h1>
             </div>
             <div class="owl-carousel team-carousel position-relative" style="padding-right: 25px;">
                 <div class="team-item">
@@ -116,7 +116,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="text-uppercase">Eru</h5>
-                        <p class="m-0">......</p>
+                        <p class="m-0"></p>
                     </div></a>
                 </div>
                 <div class="team-item">
@@ -126,7 +126,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="text-uppercase">Achu Soup</h5>
-                        <p class="m-0">.....</p>
+                        <p class="m-0"></p>
                     </div></a>
                    
                 </div>
@@ -138,7 +138,7 @@
                     <div class="bg-light text-center p-4">
                     <h5 class="text-uppercase">koki</h5>
                      
-                        <p class="m-0">.....</p>
+                        <p class="m-0"></p>
                     </div></a>
                 </div>
                 <div class="team-item"> 
@@ -148,7 +148,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="text-uppercase">Mbongo Chobi</h5>
-                        <p class="m-0">......</p>
+                        <p class="m-0"></p>
                     </div></a>
                    
                 </div>
@@ -159,7 +159,31 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="text-uppercase">Okok</h5>
-                        <p class="m-0">......</p>
+                        <p class="m-0"></p>
+                    </div></a>
+                    
+                    
+                </div>
+                <div class="team-item"> 
+                    <a href="west.php"><div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/sp2.jpg" alt="">
+                        
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="text-uppercase">Smashed Potato and Beans</h5>
+                        <p class="m-0">(Pomme Pilé)</p>
+                    </div></a>
+                    
+                    
+                </div>
+                <div class="team-item"> 
+                    <a href="far north.php"><div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/okra.jpg" alt="">
+                        
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h5 class="text-uppercase">Okro Soup and Corn Fufu</h5>
+                        <p class="m-0"></p>
                     </div></a>
                     
                     
@@ -168,52 +192,6 @@
         </div>
     </div>
     <!-- Team End -->
-
-
-
-
-  
-
-
-
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid bg-testimonial py-5" style="margin: 45px 0;">
-        <div class="container py-5">
-            <div class="row justify-content-end">
-                <div class="col-lg-7">
-                    <div class="owl-carousel testimonial-carousel bg-white p-5">
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-4">
-                                <img class="img-fluid mx-auto" src="img/cmr.jpg" alt="">
-                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
-                                    <i class="bi bi-chat-square-quote text-primary"></i>
-                                </div>
-                            </div>
-                            <p>Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat dolor rebum sit ipsum.</p>
-                            <hr class="w-25 mx-auto">
-                            <h5 class="text-uppercase">Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                        <div class="testimonial-item text-center">
-                            <div class="position-relative mb-4">
-                                <img class="img-fluid mx-auto" src="img/cmr.jpg" alt="">
-                                <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
-                                    <i class="bi bi-chat-square-quote text-primary"></i>
-                                </div>
-                            </div>
-                            <p>Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat dolor rebum sit ipsum.</p>
-                            <hr class="w-25 mx-auto">
-                            <h5 class="text-uppercase">Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
 
 
     

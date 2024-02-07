@@ -33,23 +33,23 @@
 
 
   <!-- Navbar Start -->
-  <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0" style="background-color: teal">
+  <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0" style="background-color: rgb(2, 2, 2)">
         <a href="index.html" class="navbar-brand ms-lg-5">
-            <h1 class="m-0 text-uppercase text-dark"><i class="bi bi-shop fs-1 text-primary me-3"></i>Cameroon Food Network</h1>
+            <h1 class="m-0 text-uppercase text-white"><link rel="img/fry-knife.svg"></i>Cameroon Food Network</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-            <a href="index.php" class="nav-item nav-link active">Home</a>
-                <a href="about.php" class="nav-item nav-link">About</a>
+                <a href="index.php" class="nav-item nav-link active text">Home</a>
+                <a href="about.php" class="nav-item nav-link text-white-50">About</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><span>Regions</span></a>
+                    <a href="#" class="nav-link dropdown-toggle title-yep text-white-50" data-bs-toggle="dropdown"><span>Regions</span></a>
                     <div class="dropdown-menu m-0">
-                        <a href="adamawa.php" class="dropdown-item">Adamawa</a>
+                    <a href="adamawa.php" class="dropdown-item">Adamawa</a>
                         <a href="center.php" class="dropdown-item">Center</a>
-                        <a href="littoral.php" class="dropdown-item">Littoral</a>
+                        <a href="littoral.php" class="dropdown-item">Littoal</a>
                         <a href="east.php" class="dropdown-item">East</a>
                         <a href="west.php" class="dropdown-item">West</a>
                         <a href="southwest.php" class="dropdown-item">Southwest</a>
@@ -60,12 +60,12 @@
 
                     </div>
                 </div>
-             
+                <a href="cfn.php" class="nav-item nav-link text-white-50">Cameroon Dishes</a>
+                
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
-
 
 
     <!-- Blog Start -->

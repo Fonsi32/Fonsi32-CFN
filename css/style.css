@@ -470,6 +470,26 @@
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.title-h{
+    color: rgb(132, 205, 23);
+    text-align: left;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .title-yep{
     padding-right: 50px;
 }
+
+.tm-section-header-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+.tm-section { margin-bottom: 60px; }
+.tm-section-margin-bottom-0 { margin-bottom: 0; }
+

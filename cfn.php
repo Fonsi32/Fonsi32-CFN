@@ -29,11 +29,11 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body >
+<body>
  
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0" style="background-color: rgb(2, 2, 2)">
+   <!-- Navbar Start -->
+   <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0" style="background-color: rgb(2, 2, 2)">
         <a href="index.html" class="navbar-brand ms-lg-5">
             <h1 class="m-0 text-uppercase text-white"><link rel="img/fry-knife.svg"></i>Cameroon Food Network</h1>
         </a>
@@ -67,49 +67,28 @@
     </nav>
     <!-- Navbar End -->
 
-
-    <!-- OIP Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 OIP-header">
-        <div class="container py-5">
-            <div class="row justify-content-start">
-                <div class="col-lg-8 text-center text-lg-start">
-                    <h1 class="display-5 title-hd">Camer Delice</h1>
-                    <h1> Explore the greatness of Cameroon divers Food, all in one space. </h1>
-               </div>
-            </div>
+  <div class="container-fluid bg-light mt-5 py-5">
+    <div>
+        <div  style="font-style: italic;"><h3>Cameroon Recipes</h3></div>
+        <div>
+           <h6> 
+            <p>Cameroonian cuisine is one of the most varied in Africa due to Cameroon's location on 
+               the crossroads between the north, west, and center of the continent.</p>
+            <p>The diversity in ethnicity with mixture ranging from Bantus, Semi-bantus 
+                and Shuwa Arabs, as well as the influence of German, French and English colonialization.</p>
+             <p>All these gives Cameroon a variety of delicious meals.</p>
+           </h6>
         </div>
     </div>
-    <!-- OIP End -->
+  </div>
+  
+  <h1 class="display-5 title-h">Featured</h1>
 
-    <!-- small story start -->
-    <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="img/food.jpg" style="object-fit: contain;">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="border-start border-5 border-primary ps-5 mb-5">
-                        <h6 class="text-primary text-uppercase">About Us</h6>
-                        <h2 class="display-7  mb-3 text-dark">Cameroonian cuisine is one of the most varied in Africa due to Cameroon's location on 
-                        the crossroads between the north, west, and center of the continent; the diversity in ethnicity with mixture ranging from Bantus, Semi-bantus 
-                        and Shuwa Arabs, as well as the influence of German, French and English colonialization. All these gives Cameroon a variety of delicious meals.</h2>
-                    </div>
-                    
-                </div>
-            </div>
-    </div>
-<!-- small story end -->
-
-
-    <!-- Team Start -->
+      <!-- Team Start -->
     <div class="container-fluid py-5">
         <div class="container">
-            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
-                <h1 class="display-5 text-uppercase mb-0 title-meal">Home Made Dishes</h1>
-            </div>
-            <div class="owl-carousel team-carousel position-relative" style="padding-right: 25px;">
+           
+            <div class="owl-carousel team-carousel md-15 position-relative" style="padding-right: 25px;">
                 <div class="team-item">
                    <a href="southwest.php"> <div class="position-relative overflow-hidden">
                         <img class="img-fluid w-100" src="img/eru2.jpg" alt="">
@@ -192,38 +171,10 @@
             </div>
         </div>
     </div>
-    <!-- Team End -->
+
+ 
 
 
-    
-
-   <!-- Footer Start -->
-   <div class="container-fluid bg-light mt-5 py-5">
-        <div class="col-12 text-center text-body">
-          <a class="text-body" href="">Terms & Conditions</a>
-            <span class="mx-1">|</span>
-               <a class="text-body" href="">Privacy Policy</a>
-           <span class="mx-1">|</span>
-               <a class="text-body" href="">Customer Support</a>
-           <span class="mx-1">|</span>
-               <a class="text-body" href="">Payments</a>
-           <span class="mx-1">|</span>
-               <a class="text-body" href="">Help</a>
-           <span class="mx-1">|</span>
-               <a class="text-body" href="">FAQs</a>
-        </div>
-    </div>
-    <div class="container-fluid bg-dark text-white-50 py-4">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-md-0">&copy; <a class="text-white" href="#">Cameroon Food Network</a>. All Rights Reserved.</p>
-                </div>
-               
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary py-3 fs-4 back-to-top" style="background-color: teal"><i class="bi bi-arrow-up"></i></a>

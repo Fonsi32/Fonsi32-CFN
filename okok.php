@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+                
+                session_start();
+                
+                // Connect to the database (replace with your actual database credentials)
+                $servername = "localhost";
+                $username = "root";
+                $password = "";
+                $dbname = "cfn";
+                
+                
+                $conn = new mysqli($servername, $username, $password, $dbname);
+                
+                // Check connection
+                if ($conn->connect_error) {
+                    die("Connection failed: " . $conn->connect_error);
+                }
+                
+                // Retrieve data from the database
+                $sql = "SELECT * FROM cfn2 ";
+                $result = $conn->query($sql);
+                
+                // Display the data on the web page
+                // Store the retrieved data in a session variable
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        $_SESSION['id'] = $row['id'];
+                        $_SESSION['Name'] = $row['Name'];
+                        $_SESSION['Email'] = $row['Email'];
+                        $_SESSION['Comment'] = nl2br($row['Comment']);
+                   ;
+               
+                    
+                    }
+                    ;
+                    
+                }
+                
+                // Close the database connection
+                
+                $conn->close();
+                ?>
+
 <head>
     <meta charset="utf-8">
     <title>Cameroon Food Network</title>
@@ -115,9 +158,8 @@
                     <div class="d-flex mb-4">
                         <img src="img/user.jpg" class="img-fluid" style="width: 45px; height: 45px;">
                         <div class="ps-3">
-                            <h6><a href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
-                            <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
+                            <h6><a href=""><?php echo $_SESSION['Name'];?></a></h6>
+                            <p><?php echo $_SESSION['Comment'];?></p>
                             <button class="btn btn-sm btn-light">Reply</button>
                         </div>
                     </div>

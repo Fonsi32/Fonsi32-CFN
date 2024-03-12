@@ -6,7 +6,7 @@ $name = $_POST['Name'];
 $email = $_POST['Email'];
 $comment = $_POST['Comment'];
 
-$sql = "INSERT INTO cfn4 (Name, Email, Comment) VALUES ('$name', '$email', '$comment')";
+$sql = "INSERT INTO cfn3 (Name, Email, Comment) VALUES ('$name', '$email', '$comment')";
 
 // Check connection
 if (!$conn) {

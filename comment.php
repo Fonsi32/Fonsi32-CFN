@@ -6,7 +6,7 @@ $name = $_POST['Name'];
 $email = $_POST['Email'];
 $comment = $_POST['Comment'];
 
-$sql = "INSERT INTO cfn4 (Name, Email, Comment) VALUES ('$name', '$email', '$comment')";
+$sql = "INSERT INTO cfn2 (Name, Email, Comment) VALUES ('$name', '$email', '$comment')";
 
 // Check connection
 if (!$conn) {
@@ -19,7 +19,7 @@ if (mysqli_query($conn, $sql)) {
   }
 
 
-  header("Location: http://localhost/CFN/CFN/eru.php", true,  301);
+  header("Location: http://localhost/CFN/CFN/ndole.php", true,  301);
 ?>
 
 

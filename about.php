@@ -43,19 +43,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="index.php" class="nav-item nav-link active text">Home</a>
-                <a href="about.php" class="nav-item nav-link text-white-50">About</a>
+                <a href="index.php" class="nav-item nav-link text-white-50">Home</a>
+                <a href="about.php" class="nav-item nav-link active text">About</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle title-yep text-white-50" data-bs-toggle="dropdown"><span>Regions</span></a>
+                <a href="#" class="nav-link dropdown-toggle title-yep text-white-50" data-bs-toggle="dropdown"><span>Recipes</span></a>
                     <div class="dropdown-menu m-0">
-                    <a href="adamawa.php" class="dropdown-item">Adamawa</a>
-                        <a href="center.php" class="dropdown-item">Center</a>
-                        <a href="littoral.php" class="dropdown-item">Littoal</a>
-                        <a href="east.php" class="dropdown-item">East</a>
-                        <a href="west.php" class="dropdown-item">West</a>
-                        <a href="southwest.php" class="dropdown-item">Southwest</a>
-                        <a href="northwest.php" class="dropdown-item">Northwest</a>
-                        <a href="far north.php" class="dropdown-item">Far North</a>
+                        <a href="ndole.php" class="dropdown-item">Ndolé</a>
+                        <a href="okok.php" class="dropdown-item">Okok</a>
+                        <a href="mbongo.php" class="dropdown-item">Mbongo Tchobi</a>
+                        <a href="koki-beans.php" class="dropdown-item">koki Beans</a>
+                        <a href="pomme-pile.php" class="dropdown-item">Smashes Potato (pomme-Pilé)</a>
+                        <a href="eru.php" class="dropdown-item">Eru</a>
+                        <a href="achu.php" class="dropdown-item">Achu Soup</a>
+                        <a href="okro.php" class="dropdown-item">Okro Soup and Corn Fufu</a>
                         <a href="north.php" class="dropdown-item">North</a>
                         <a href="south.php" class="dropdown-item">South</a>
 

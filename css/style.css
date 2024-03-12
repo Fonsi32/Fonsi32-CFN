@@ -113,7 +113,7 @@
 }
 
 .OIP-header {
-    background: url(http://localhost/CFN/img/Achu.jpg) top right no-repeat;
+    background: url(../img/Achu.jpg) top right no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -390,7 +390,7 @@
 }
 
 .bg-testimonial {
-    background: url(../img/testimonial.jpg) top left no-repeat;
+    background: url(../img/cmr.jpg) top left no-repeat;
     background-size: cover;
 }
 
@@ -480,16 +480,69 @@
     padding-right: 50px;
 }
 
-.tm-section-header-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-    -webkit-align-items: flex-end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-  }
-.tm-section { margin-bottom: 60px; }
-.tm-section-margin-bottom-0 { margin-bottom: 0; }
+Define the outer block */
+      .outer-block {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns as needed */
+        gap: 10px; /* Adjust the gap between blocks as needed */
+        width: 500px; /* Adjust the width as needed */
+        border: 1px solid black;
+        padding: 10px;
+      }
 
+      /* Define the inner blocks */
+      .inner-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        padding: 10px;
+      }
+/* Define the image style */
+.inner-block img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Define the writing note style */
+  .writing-note {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .main-block {
+    display: grid;
+    grid-template-columns: repeat(2,  1fr); /* Creates two columns */
+    grid-template-rows: repeat(2,  1fr); /* Creates two rows */
+    gap:  10px; /* Space between the grid items */
+    padding:  10px; /* Padding around the main block */
+    border:  1px solid #ccc; /* Border around the main block */
+  }
+  
+  .small-block {
+    border:  1px solid #ddd; /* Border around each small block */
+    padding:  10px; /* Padding inside each small block */
+    text-align: center; /* Center the text */
+  }
+  #see-more {
+    display: none;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .item {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .show-more {
+    display: none;
+    text-align: right;
+  }  
+  .hidden{
+    display: none;
+  }

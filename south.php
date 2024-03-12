@@ -45,16 +45,16 @@
                 <a href="index.php" class="nav-item nav-link active text">Home</a>
                 <a href="about.php" class="nav-item nav-link text-white-50">About</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle title-yep text-white-50" data-bs-toggle="dropdown"><span>Regions</span></a>
+                <a href="#" class="nav-link dropdown-toggle title-yep text-white-50" data-bs-toggle="dropdown"><span>Recipes</span></a>
                     <div class="dropdown-menu m-0">
-                    <a href="adamawa.php" class="dropdown-item">Adamawa</a>
-                        <a href="center.php" class="dropdown-item">Center</a>
-                        <a href="littoral.php" class="dropdown-item">Littoal</a>
-                        <a href="east.php" class="dropdown-item">East</a>
-                        <a href="west.php" class="dropdown-item">West</a>
-                        <a href="southwest.php" class="dropdown-item">Southwest</a>
-                        <a href="northwest.php" class="dropdown-item">Northwest</a>
-                        <a href="far north.php" class="dropdown-item">Far North</a>
+                        <a href="ndole.php" class="dropdown-item">Ndolé</a>
+                        <a href="okok.php" class="dropdown-item">Okok</a>
+                        <a href="mbongo.php" class="dropdown-item">Mbongo Tchobi</a>
+                        <a href="koki-beans.php" class="dropdown-item">koki Beans</a>
+                        <a href="pomme-pile.php" class="dropdown-item">Smashes Potato (pomme-Pilé)</a>
+                        <a href="eru.php" class="dropdown-item">Eru</a>
+                        <a href="achu.php" class="dropdown-item">Achu Soup</a>
+                        <a href="okro.php" class="dropdown-item">Okro Soup and Corn Fufu</a>
                         <a href="north.php" class="dropdown-item">North</a>
                         <a href="south.php" class="dropdown-item">South</a>
 
@@ -133,19 +133,16 @@
                 <!-- Comment Form Start -->
                 <div class="bg-light rounded p-5">
                     <h3 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Leave a comment</h3>
-                    <form>
+                    <form method="post" action="comments.php">
                         <div class="row g-3">
                             <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control bg-white border-0" placeholder="Your Name" style="height: 55px;">
+                                <input type="text" class="form-control bg-white border-0" placeholder="Your Name" style="height: 55px;" name="name" required>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control bg-white border-0" placeholder="Your Email" style="height: 55px;">
+                                <input type="email" class="form-control bg-white border-0" placeholder="Your Email" style="height: 55px;" name="email" required>
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control bg-white border-0" placeholder="Website" style="height: 55px;">
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control bg-white border-0" rows="5" placeholder="Comment"></textarea>
+                                <textarea class="form-control bg-white border-0" rows="5" placeholder="Comment" name="comment" required></textarea>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">Leave Your Comment</button>
@@ -161,8 +158,7 @@
                 <!-- Search Form Start -->
                 <div class="mb-5">
                     <div class="input-group">
-                        <input type="text" class="form-control p-3" placeholder="Keyword">
-                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                        
                     </div>
                 </div>
                 <!-- Search Form End -->
@@ -170,30 +166,30 @@
 
                 <!-- Recent Post Start -->
                 <div class="mb-5">
-                    <h3 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Recent Post</h3>
+                    <h3 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Other Meals</h3>
                     <div class="d-flex overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                        <a href="" class="h5 d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                        <img class="img-fluid" src="img/eru2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <a href="eru.php" class="h5 d-flex align-items-center bg-light px-3 mb-0">Eru
                         </a>
                     </div>
                     <div class="d-flex overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                        <a href="" class="h5 d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                        <img class="img-fluid" src="img/achu12.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <a href="achu.php" class="h5 d-flex align-items-center bg-light px-3 mb-0">Achu Soup
                         </a>
                     </div>
                     <div class="d-flex overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/blog-3.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                        <a href="" class="h5 d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                        <img class="img-fluid" src="img/koki1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <a href="koki-beans.php" class="h5 d-flex align-items-center bg-light px-3 mb-0">Koki Beans
                         </a>
                     </div>
                     <div class="d-flex overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                        <a href="" class="h5 d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                        <img class="img-fluid" src="img/okok1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <a href="okok.php" class="h5 d-flex align-items-center bg-light px-3 mb-0">Okok
                         </a>
                     </div>
                     <div class="d-flex overflow-hidden mb-3">
-                        <img class="img-fluid" src="img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                        <a href="" class="h5 d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                        <img class="img-fluid" src="img/okra.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <a href="okro.php" class="h5 d-flex align-items-center bg-light px-3 mb-0">Okro soup and Corn Fufu
                         </a>
                     </div>
                 </div>
@@ -209,10 +205,13 @@
 
                 <!-- Plain Text Start -->
                 <div>
-                    <h3 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Plain Text</h3>
+                    <h3 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">About C.F.N</h3>
                     <div class="bg-light text-center" style="padding: 30px;">
-                        <p>Vero sea et accusam justo dolor accusam lorem consetetur, dolores sit amet sit dolor clita kasd justo, diam accusam no sea ut tempor magna takimata, amet sit et diam dolor ipsum amet diam</p>
-                        <a href="" class="btn btn-primary py-2 px-4">Read More</a>
+                        <p>Welcome to the Cameroon Food Network. So glad you made it to my food empire!
+                        The goal is to show you delicious recipes from Camerron you can replicate in your kitchen. 
+                        Hope you find recipes here that will bring joy to the family.
+                        </p>
+                        <a href="about.php" class="btn btn-primary py-2 px-4">Read More</a>
                     </div>
                 </div>
                 <!-- Plain Text End -->
@@ -267,6 +266,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
 </body>
 
 </html>

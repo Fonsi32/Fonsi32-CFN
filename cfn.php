@@ -42,25 +42,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="index.php" class="nav-item nav-link active text">Home</a>
+                <a href="index.php" class="nav-item nav-link text-white-50">Home</a>
                 <a href="about.php" class="nav-item nav-link text-white-50">About</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle title-yep text-white-50" data-bs-toggle="dropdown"><span>Regions</span></a>
+                <a href="#" class="nav-link dropdown-toggle title-yep text-white-50" data-bs-toggle="dropdown"><span>Recipes</span></a>
                     <div class="dropdown-menu m-0">
-                    <a href="adamawa.php" class="dropdown-item">Adamawa</a>
-                        <a href="center.php" class="dropdown-item">Center</a>
-                        <a href="littoral.php" class="dropdown-item">Littoal</a>
-                        <a href="east.php" class="dropdown-item">East</a>
-                        <a href="west.php" class="dropdown-item">West</a>
-                        <a href="southwest.php" class="dropdown-item">Southwest</a>
-                        <a href="northwest.php" class="dropdown-item">Northwest</a>
-                        <a href="far north.php" class="dropdown-item">Far North</a>
+                        <a href="ndole.php" class="dropdown-item">Ndolé</a>
+                        <a href="okok.php" class="dropdown-item">Okok</a>
+                        <a href="mbongo.php" class="dropdown-item">Mbongo Tchobi</a>
+                        <a href="koki-beans.php" class="dropdown-item">koki Beans</a>
+                        <a href="pomme-pile.php" class="dropdown-item">Smashes Potato (pomme-Pilé)</a>
+                        <a href="eru.php" class="dropdown-item">Eru</a>
+                        <a href="achu.php" class="dropdown-item">Achu Soup</a>
+                        <a href="okro.php" class="dropdown-item">Okro Soup and Corn Fufu</a>
                         <a href="north.php" class="dropdown-item">North</a>
                         <a href="south.php" class="dropdown-item">South</a>
 
                     </div>
                 </div>
-                <a href="cfn.php" class="nav-item nav-link text-white-50">Cameroon Dishes</a>
+                <a href="cfn.php" class="nav-item nav-link active text">Cameroon Dishes</a>
                 
             </div>
         </div>
@@ -82,101 +82,82 @@
     </div>
   </div>
   
-  <h1 class="display-5 title-h">Featured</h1>
+  <h1 class="display-8 title-h text-dark">Featured</h1>
 
       <!-- Team Start -->
-    <div class="container-fluid py-5">
+   
+
+ 
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a short card.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid bg-light mt-5 py-5">
+        <div class="col-12 text-center text-body">
+          <a class="text-body" href="">Terms & Conditions</a>
+            <span class="mx-1">|</span>
+               <a class="text-body" href="">Privacy Policy</a>
+           <span class="mx-1">|</span>
+               <a class="text-body" href="">Customer Support</a>
+           <span class="mx-1">|</span>
+               <a class="text-body" href="">Payments</a>
+           <span class="mx-1">|</span>
+               <a class="text-body" href="">Help</a>
+           <span class="mx-1">|</span>
+               <a class="text-body" href="">FAQs</a>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white-50 py-4">
         <div class="container">
-           
-            <div class="owl-carousel team-carousel md-15 position-relative" style="padding-right: 25px;">
-                <div class="team-item">
-                   <a href="southwest.php"> <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/eru2.jpg" alt="">
-                      
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Eru</h5>
-                        <p class="m-0"></p>
-                    </div></a>
+            <div class="row g-5">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-md-0">&copy; <a class="text-white" href="#">Cameroon Food Network</a>. All Rights Reserved.</p>
                 </div>
-                <div class="team-item">
-                    <a href="northwest.php">  <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/achu11.jpg" alt="">
-                       
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Achu Soup</h5>
-                        <p class="m-0"></p>
-                    </div></a>
-                   
-                </div>
-                <div class="team-item">
-                    <a href="east.php"><div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/koki1.jpg" alt="">
-                      
-                    </div>
-                    <div class="bg-light text-center p-4">
-                    <h5 class="text-uppercase">koki</h5>
-                     
-                        <p class="m-0"></p>
-                    </div></a>
-                </div>
-                <div class="team-item"> 
-                    <a href="littoral.php"> <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/mbongo1.jpg" alt="">
-                      
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Mbongo Chobi</h5>
-                        <p class="m-0"></p>
-                    </div></a>
-                   
-                </div>
-                <div class="team-item"> 
-                    <a href="center.php"><div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/okok1.jpg" alt="">
-                        
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Okok</h5>
-                        <p class="m-0"></p>
-                    </div></a>
-                    
-                    
-                </div>
-                <div class="team-item"> 
-                    <a href="west.php"><div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/sp2.jpg" alt="">
-                        
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Smashed Potato and Beans</h5>
-                        <p class="m-0">(Pomme Pilé)</p>
-                    </div></a>
-                    
-                    
-                </div>
-                <div class="team-item"> 
-                    <a href="far north.php"><div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/okra.jpg" alt="">
-                        
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Okro Soup and Corn Fufu</h5>
-                        <p class="m-0"></p>
-                    </div></a>
-                    
-                    
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed by <a class="text-white" href="https://htmlcodex.com">HTML Codex</a></p>
                 </div>
             </div>
         </div>
     </div>
 
- 
 
-
-
-    <!-- Back to Top -->
+ <!-- Back to Top -->
     <a href="#" class="btn btn-primary py-3 fs-4 back-to-top" style="background-color: teal"><i class="bi bi-arrow-up"></i></a>
 
 
@@ -189,6 +170,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
 </body>
 
 </html>

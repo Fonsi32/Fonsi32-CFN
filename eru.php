@@ -161,13 +161,13 @@
                     <form method="post" action="comment2.php">
                         <div class="row g-3">
                             <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control bg-white border-0" placeholder="Your Name" style="height: 55px;" name="name" required>
+                                <input type="text" class="form-control bg-white border-0" placeholder="Your Name" style="height: 55px;" name="Name" required>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control bg-white border-0" placeholder="Your Email" style="height: 55px;" name="email" required>
+                                <input type="email" class="form-control bg-white border-0" placeholder="Your Email" style="height: 55px;" name="Email" required>
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control bg-white border-0" rows="5" placeholder="Comment" name="comment" required></textarea>
+                                <textarea class="form-control bg-white border-0" rows="5" placeholder="Comment" name="Comment" required></textarea>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">Leave Your Comment</button>

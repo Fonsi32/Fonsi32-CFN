@@ -91,27 +91,27 @@
       <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="img/eru.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <a href="eru.php"><h5 class="card-title">Eru</h5></a>
+        
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="img/mbongo1.jpg" class="card-img-top" alt="..." style="width: 400px; height: 250px;" border-radius="50%">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a short card.</p>
+        <a href="mbongo.php"><h5 class="card-title">Mbongo Tchobi</h5></a>
+        <p class="card-text"></p>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="img/Achu12.jpg" class="card-img-top" alt="..." style="width: 450px; height: 250px; background-size: cover;">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <a href="achu.php"><h5 class="card-title">Achu Soup</h5></a>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
       </div>
     </div>
@@ -158,7 +158,7 @@
 
 
  <!-- Back to Top -->
-    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top" style="background-color: teal"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top" style="background-color: orange"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+    session_start();
+    include('dbConn.php');
+
+    if ($conn->connect_error) {
+        die("connection failed" . $conn->connect_error);
+    }
+
+    $sql = "SELECT * FROM cfnsp ORDER BY id DESC LIMIT 5";
+    $result = $conn->query($sql);
+
+    $conn->close();
+?>
+
 <head>
     <meta charset="utf-8">
     <title>Cameroon Food Network</title>
@@ -45,7 +59,7 @@
                 <a href="index.php" class="nav-item nav-link active text">Home</a>
                 <a href="about.php" class="nav-item nav-link text-white-50">About</a>
                 <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle title-yep text-white-50" data-bs-toggle="dropdown"><span>Recipes</span></a>
+                     <a href="#" class="nav-link dropdown-toggle title-yep text-white-50" data-bs-toggle="dropdown"><span>Recipes</span></a>
                     <div class="dropdown-menu m-0">
                         <a href="ndole.php" class="dropdown-item">Ndolé</a>
                         <a href="okok.php" class="dropdown-item">Okok</a>
@@ -100,50 +114,39 @@
 
                 <!-- Comment List Start -->
                 <div class="mb-5">
-                    <h3 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">3 Comments</h3>
-                    <div class="d-flex mb-4">
-                        <img src="img/user.jpg" class="img-fluid" style="width: 45px; height: 45px;">
-                        <div class="ps-3">
-                            <h6><a href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
-                            <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
-                            <button class="btn btn-sm btn-light">Reply</button>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-4">
-                        <img src="img/user.jpg" class="img-fluid" style="width: 45px; height: 45px;">
-                        <div class="ps-3">
-                            <h6><a href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
-                            <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
-                            <button class="btn btn-sm btn-light">Reply</button>
-                        </div>
-                    </div>
-                    <div class="d-flex ms-5 mb-4">
-                        <img src="img/user.jpg" class="img-fluid" style="width: 45px; height: 45px;">
-                        <div class="ps-3">
-                            <h6><a href="">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
-                            <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
-                            <button class="btn btn-sm btn-light">Reply</button>
-                        </div>
-                    </div>
+                    <h3 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Comments</h3>
+                        <?php
+                            if ($result->num_rows > 0) {
+                                while ($row = $result->fetch_assoc()) { ?>
+
+                                    <div class="d-flex mb-4">
+                                        <img src="img/user.jpg" class="img-fluid" style="width: 45px; height: 45px;">
+                                        <div class="ps-3">
+                                            <h6><a href=""><?php echo $row['Name'];?></a></h6>
+                                            <p><?php echo nl2br($row['Comment']);?></p>
+                                        </div>
+                                    </div>
+                                    <?php
+                                    } 
+                                ;
+                             }
+                        ?>
                 </div>
                 <!-- Comment List End -->
 
                  <!-- Comment Form Start -->
                  <div class="bg-light rounded p-5">
                     <h3 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Leave a comment</h3>
-                    <form method="post" action="comments.php">
+                    <form method="post" action="comsp.php">
                         <div class="row g-3">
                             <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control bg-white border-0" placeholder="Your Name" style="height: 55px;" name="name" required>
+                                <input type="text" class="form-control bg-white border-0" placeholder="Your Name" style="height: 55px;" name="Name" required>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control bg-white border-0" placeholder="Your Email" style="height: 55px;" name="email" required>
+                                <input type="email" class="form-control bg-white border-0" placeholder="Your Email" style="height: 55px;" name="Email" required>
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control bg-white border-0" rows="5" placeholder="Comment" name="comment" required></textarea>
+                                <textarea class="form-control bg-white border-0" rows="5" placeholder="Comment" name="Comment" required></textarea>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">Leave Your Comment</button>

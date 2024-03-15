@@ -587,3 +587,4 @@ Define the outer block */
 .dropdown .dropdown-toggle:active {
     pointer-events: none; /* Prevents sticky behavior on click */
 }
+

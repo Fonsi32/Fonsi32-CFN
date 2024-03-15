@@ -60,7 +60,7 @@
                 <a href="about.php" class="nav-item nav-link text-white-50">About</a>
                 <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle title-yep text-white-50" data-bs-toggle="dropdown"><span>Recipes</span></a>
-                    <div class="dropdown-menu m-0">
+                    <div class="dropdown-menu m-0 bg-primary">
                         <a href="ndole.php" class="dropdown-item">Ndolé</a>
                         <a href="okok.php" class="dropdown-item">Okok</a>
                         <a href="mbongo.php" class="dropdown-item">Mbongo Tchobi</a>
@@ -153,7 +153,7 @@
                 <!-- Comment Form Start -->
                 <div class="bg-light rounded p-5">
                     <h3 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Leave a comment</h3>
-                    <form method="post" action="comments.php">
+                    <form method="post" action="comkb.php">
                         <div class="row g-3">
                             <div class="col-12 col-sm-6">
                                 <input type="text" class="form-control bg-white border-0" placeholder="Your Name" style="height: 55px;" name="Name" required>
@@ -275,7 +275,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top" style="background-color: teal"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top" style="background-color: orange"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

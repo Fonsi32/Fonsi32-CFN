@@ -59,7 +59,7 @@
                 <a href="about.php" class="nav-item nav-link text-white-50">About</a>
                 <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle title-yep text-white-50" data-bs-toggle="dropdown"><span>Recipes</span></a>
-                    <div class="dropdown-menu m-0">
+                    <div class="dropdown-menu m-0 bg-primary">
                         <a href="ndole.php" class="dropdown-item">Ndolé</a>
                         <a href="okok.php" class="dropdown-item">Okok</a>
                         <a href="mbongo.php" class="dropdown-item">Mbongo Tchobi</a>
@@ -280,7 +280,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top" style="background-color: teal"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top" style="background-color: orange"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

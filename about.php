@@ -118,8 +118,8 @@
                     </div></a>
                 </div>
                 <div class="team-item">
-                    <a href="northwest.php">  <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/achu11.jpg" alt="">
+                    <a href="achu.php">  <div class="position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/achu13.jpg" alt="">
                        
                     </div>
                     <div class="bg-light text-center p-4">
@@ -129,7 +129,7 @@
                    
                 </div>
                 <div class="team-item">
-                    <a href="east.php"><div class="position-relative overflow-hidden">
+                    <a href="east.php"><div class="position-relative overflow-hidden" style="width: 250px; height: 250px">
                         <img class="img-fluid w-100" src="img/koki1.jpg" alt="">
                       
                     </div>

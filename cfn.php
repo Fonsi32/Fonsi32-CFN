@@ -109,10 +109,10 @@
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="img/Achu12.jpg" class="card-img-top" alt="..." style="width: 450px; height: 250px; background-size: cover;">
+      <img src="img/Achu12.jpg" class="card-img-top" alt="..." style="width: 250px; height: 250px; cover;">
       <div class="card-body">
         <a href="achu.php"><h5 class="card-title">Achu Soup</h5></a>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"></p>
       </div>
     </div>
   </div>

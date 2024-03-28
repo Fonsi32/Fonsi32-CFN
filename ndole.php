@@ -176,10 +176,10 @@
                     <form method="post" action="comment.php">
                         <div class="row g-3">
                             <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control bg-white border-0" placeholder="Your Name" style="height: 55px;" name="Name" required>
+                                <input type="text" class="form-control bg-white border-0" placeholder="Your Name" style="height: 55px;" name="Name" autocomplete="on" required>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control bg-white border-0" placeholder="Your Email" style="height: 55px;" name="Email" required>
+                                <input type="email" class="form-control bg-white border-0" placeholder="Your Email" style="height: 55px;" name="Email" autocomplete="on" required>
                             </div>
                            
                             <div class="col-12">

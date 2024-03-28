@@ -174,18 +174,7 @@
                     
                     
                 </div>
-                <div class="team-item"> 
-                    <a href="far north.php"><div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/ngalakh.jpg" alt="">
-                        
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Ngalakh</h5>
-                        <p class="m-0"></p>
-                    </div></a>
-                    
-                    
-                </div>
+               
             </div>
         </div>
     </div>

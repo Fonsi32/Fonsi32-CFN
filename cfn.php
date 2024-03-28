@@ -88,41 +88,46 @@
    
 
  
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+<div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
-      <img src="img/eru.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <a href="eru.php"><h5 class="card-title">Eru</h5></a>
+        <a href="eru.php"><img src="img/eru.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+           <h5 class="card-title">Eru</h5>
         
+          </div>
+        </a>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+        <a href="mbongo.php"><img src="img/mbongo1.jpg" class="card-img-top" alt="..." style="width: 400px; height: 250px;" border-radius="50%">
+          <div class="card-body">
+              <h5 class="card-title">Mbongo Tchobi</h5>
+           
+          <p class="card-text"></p>
+        </a>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="img/mbongo1.jpg" class="card-img-top" alt="..." style="width: 400px; height: 250px;" border-radius="50%">
-      <div class="card-body">
-        <a href="mbongo.php"><h5 class="card-title">Mbongo Tchobi</h5></a>
-        <p class="card-text"></p>
-      </div>
+      <a href="achu.php"><img src="img/Achu13.jpg" class="card-img-top img-fluid" alt="..." style="width: ; height: 250px; cover;">
+        <div class="card-body">
+          <h5 class="card-title">Achu Soup</h5>
+          <p class="card-text"></p>
+        </div>
+      </a>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="img/Achu12.jpg" class="card-img-top" alt="..." style="width: 250px; height: 250px; cover;">
-      <div class="card-body">
-        <a href="achu.php"><h5 class="card-title">Achu Soup</h5></a>
-        <p class="card-text"></p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
+      <a href="ndole.php"><img src="img/ndole3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ndole</h5>
+          <p class="card-text"></p>
+        </div>
+      </a>
     </div>
   </div>
 </div>
